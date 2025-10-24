@@ -1,0 +1,1 @@
+{"name":"Local: monede","url":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2014/monede.cpp","tests":[{"id":1758634509486,"input":"3 3\n0 0 0\n0 0 0\n1 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2014/monede.cpp","group":"local","local":true}

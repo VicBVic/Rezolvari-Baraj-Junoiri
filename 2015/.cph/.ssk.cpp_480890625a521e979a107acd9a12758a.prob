@@ -1,0 +1,1 @@
+{"name":"Local: ssk","url":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2015/ssk.cpp","tests":[{"id":1759932665784,"input":"2 3 14 \n3 2 7 \n4 1 0","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2015/ssk.cpp","group":"local","local":true}

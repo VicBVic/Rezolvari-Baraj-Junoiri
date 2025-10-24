@@ -1,0 +1,1 @@
+{"name":"Local: decod","url":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2009/decod.cpp","tests":[{"id":1757421033261,"input":"3 5\n12124\n1111012124100111234511151","output":"57346\n20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2009/decod.cpp","group":"local","local":true}

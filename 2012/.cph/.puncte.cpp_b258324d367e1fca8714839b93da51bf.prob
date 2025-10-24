@@ -1,0 +1,1 @@
+{"name":"Local: puncte","url":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2012/puncte.cpp","tests":[{"id":1757589944754,"input":"7 4\n3 2\n1 1\n1 2\n4 3\n3 4\n6 6\n5 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2012/puncte.cpp","group":"local","local":true}

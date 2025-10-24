@@ -1,0 +1,1 @@
+{"name":"Local: wall1","url":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/extra/wall1.cpp","tests":[{"id":1758115397829,"input":"11 7\n5 4 7 6 4 7 6 8 7 5 1","output":"5 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/extra/wall1.cpp","group":"local","local":true}

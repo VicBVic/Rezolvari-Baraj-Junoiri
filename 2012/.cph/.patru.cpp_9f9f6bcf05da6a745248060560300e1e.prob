@@ -1,0 +1,1 @@
+{"name":"Local: patru","url":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2012/patru.cpp","tests":[{"id":1757589533513,"input":"7 5\n1 2 17 15 23 19 17","output":"3\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/botnaru-victor/Documents/codes/Rezolvari baraj juniori/2012/patru.cpp","group":"local","local":true}
