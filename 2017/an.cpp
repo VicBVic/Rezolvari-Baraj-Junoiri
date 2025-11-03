@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//#define TESTS
+#define TESTS
 
 #define x first
 #define y second
@@ -10,40 +10,34 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define pb(x,y) x.push_back(y)
 
-const int maxn = 5e6+5;
-int ciur[maxn];
-int fr[maxn];
-int n;
-long long ans=0;
-
-void doCiur()
-{
-	for(int i=2;i<=n;i++)
-	{
-		if(ciur[i]==1)
-		{
-			for(int j=i;j<=n;j+=i) ciur[j]*=i;
-		}
-	}
-}
-
+const int maxn = 10005;
+//d[i] = daca ai o strategie de castig cu primele i pietre
+bool d[maxn];
+string s;
 void solve()
 {
-	cin>>n;
-	for(int i=1;i<=n;i++) ciur[i]=1;
-	doCiur();
-	for(int i=1;i<=n;i++)
+	cin>>s;
+	reverse(s.begin(), s.end());
+	//doar iei piatra de jos
+	d[0]=1;
+	for(int i=1;i<s.size();i++)
 	{
-		ans+=n/ciur[i];
+		//doar iei piatra
+		d[i]=(1-d[i-1]);
+
+		if(s[i]==s[i-1])
+		{
+			d[i] |= (d[i-1]);
+		}
 	}
 
-	cout<<ans<<'\n';
+	cout<<d[s.size()-1]<<'\n';
 }
 
 int32_t main()
 {
 	#ifndef LOCAL
-		#define fname "adn"
+		#define fname "an"
 		freopen(fname".in","r", stdin);
 		freopen(fname".out","w",stdout);
 	#endif
